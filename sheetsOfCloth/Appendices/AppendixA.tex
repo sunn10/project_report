@@ -1,0 +1,129 @@
+% Appendix A
+
+\chapter{System testing} % Main appendix title
+
+\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\lhead{Appendix A. \emph{Appendix Title Here}} % This is for the header on each page - perhaps a shortened title
+For experiment environment is set to the same in all test cases. The environment should clear enough for surveillance camera to detect object. The place to install surveillance camera(for this experiment) must be a solid place and there must be no camera shaky occurs.
+
+The demonstrations of each test case are as following
+\begin{enumerate}
+	\item The system is tested with the scenario that object move from position to another position, from the left hand side to the right hand side. Pre-condition for this test case is that the moving object must be able to be detected in a full body(as show in table \ref{tab:01}).
+	\item The system is tested with the scenario that object move from position to another position, from the right hand side to the left hand side. Pre-condition for this test case is that the moving object must be able to be detected in a full body(as show in table \ref{tab:02}).
+	\item The system is tested with the scenario that moving object stand in a position that close to the surveillance camera. The object for this test case is really close so that the surveillance camera may detect only some part of the object(as show in table \ref{tab:03}).
+	\item The system is tested with the scenario that object move from position to another position, start from the back move directly to the front of surveillance camera(as show in table \ref{tab:04}).
+	\item The system is tested with the scenario that moving object stand in a position that far from the surveillance camera. The object for this test case is really far so that the surveillance camera may detect only some part of the object(as show in table \ref{tab:05}).
+\end{enumerate}
+
+The following tables show all the test cases, that has been tested for evaluate the accurately of the surveillance camera system. As show in table \ref{tab:01}, table \ref{tab:02}, table \ref{tab:04} and table \ref{tab:05}, the object will be capture correctly but in table \ref{tab:03} there is one test case that the system cannot even detect the motion of moving object. This is because of the system must determine whether the motion that occur is really a motion of object. In that test case the system can detect only some part of the object so that the system incorrectly determine that motion is a natural motion or the motion that system can ignore. Thus the system does not consider that motion a motion of moving object. 
+
+\begin{table}[h]
+	\begin{adjustwidth}{-1.2in}{-1.2in}% adjust the L and R margins by 1 inch
+		\begin{tabular}{|p{1.1cm}|c|c|c|c|}
+			\hline
+			Testing No. & First frame & Second frame & Optical flow & Bounding Box \\ \hline
+			1 & 
+			\includegraphics[scale=0.42]{ap111.JPG} & \includegraphics[scale=0.42]{ap112.JPG} & \includegraphics[scale=0.42]{ap113.JPG} & \includegraphics[scale=0.42]{ap114.JPG} \\
+			2 & 
+			\includegraphics[scale=0.42]{ap121.JPG} & \includegraphics[scale=0.42]{ap122.JPG} & \includegraphics[scale=0.42]{ap123.JPG} & \includegraphics[scale=0.42]{ap124.JPG} \\
+			3 & 
+			\includegraphics[scale=0.42]{ap131.JPG} & \includegraphics[scale=0.42]{ap132.JPG} & \includegraphics[scale=0.42]{ap133.JPG} & \includegraphics[scale=0.42]{ap134.JPG} \\
+			4 & 
+			\includegraphics[scale=0.42]{ap141.JPG} & \includegraphics[scale=0.42]{ap142.JPG} & \includegraphics[scale=0.42]{ap143.JPG} & \includegraphics[scale=0.42]{ap144.JPG} \\
+			5 & 
+			\includegraphics[scale=0.42]{ap151.JPG} & \includegraphics[scale=0.42]{ap152.JPG} & \includegraphics[scale=0.42]{ap153.JPG} & \includegraphics[scale=0.42]{ap154.JPG} \\
+			\hline
+		\end{tabular}
+		\caption{Experimental No.1 full object moves from right position to left position}
+		\label{tab:01}
+	\end{adjustwidth}
+\end{table}
+
+\begin{table}[h]
+	\begin{adjustwidth}{-1.2in}{-1.2in}% adjust the L and R margins by 1 inch
+		\begin{tabular}{|p{1.1cm}|c|c|c|c|}
+			\hline
+			Testing No. & First frame & Second frame & Optical flow & Bounding Box \\ \hline
+			1 & 
+			\includegraphics[scale=0.42]{ap211.JPG} & \includegraphics[scale=0.42]{ap212.JPG} & \includegraphics[scale=0.42]{ap213.JPG} & \includegraphics[scale=0.42]{ap214.JPG} \\
+			2 & 
+			\includegraphics[scale=0.42]{ap221.JPG} & \includegraphics[scale=0.42]{ap222.JPG} & \includegraphics[scale=0.42]{ap223.JPG} & \includegraphics[scale=0.42]{ap224.JPG} \\
+			3 & 
+			\includegraphics[scale=0.42]{ap231.JPG} & \includegraphics[scale=0.42]{ap232.JPG} & \includegraphics[scale=0.42]{ap233.JPG} & \includegraphics[scale=0.42]{ap234.JPG} \\
+			4 & 
+			\includegraphics[scale=0.42]{ap241.JPG} & \includegraphics[scale=0.42]{ap242.JPG} & \includegraphics[scale=0.42]{ap243.JPG} & \includegraphics[scale=0.42]{ap244.JPG} \\
+			5 & 
+			\includegraphics[scale=0.42]{ap251.JPG} & \includegraphics[scale=0.42]{ap252.JPG} & \includegraphics[scale=0.42]{ap253.JPG} & \includegraphics[scale=0.42]{ap254.JPG} \\
+			\hline
+		\end{tabular}
+		\caption{Experimental No.2 full object moves from left position to right position}
+		\label{tab:02}
+	\end{adjustwidth}
+\end{table}
+
+\begin{table}[h]
+	\begin{adjustwidth}{-1.2in}{-1.2in}% adjust the L and R margins by 1 inch
+		\begin{tabular}{|p{1.1cm}|c|c|c|c|}
+			\hline
+			Testing No. & First frame & Second frame & Optical flow & Bounding Box \\ \hline
+			1 & 
+			\includegraphics[scale=0.42]{ap311.JPG} & \includegraphics[scale=0.42]{ap312.JPG} & \includegraphics[scale=0.42]{ap313.JPG} & \includegraphics[scale=0.42]{ap314.JPG} \\
+			2 & 
+			\includegraphics[scale=0.42]{ap321.JPG} & \includegraphics[scale=0.42]{ap322.JPG} & No motion is detected & No motion is detected \\ %\includegraphics[scale=0.42]{ap323.JPG} & %\includegraphics[scale=0.42]{ap324.JPG} \\
+			3 & 
+			\includegraphics[scale=0.42]{ap331.JPG} & \includegraphics[scale=0.42]{ap332.JPG} & \includegraphics[scale=0.42]{ap333.JPG} & \includegraphics[scale=0.42]{ap334.JPG} \\
+			4 & 
+			\includegraphics[scale=0.42]{ap341.JPG} & \includegraphics[scale=0.42]{ap342.JPG} & \includegraphics[scale=0.42]{ap343.JPG} & \includegraphics[scale=0.42]{ap344.JPG} \\
+			5 & 
+			\includegraphics[scale=0.42]{ap351.JPG} & \includegraphics[scale=0.42]{ap352.JPG} & \includegraphics[scale=0.42]{ap353.JPG} & \includegraphics[scale=0.42]{ap354.JPG} \\
+			\hline
+		\end{tabular}
+		\caption{Experimental No.3 Object stands really close in front of the camera and the camera may detect only some part of the object.}
+		\label{tab:03}
+	\end{adjustwidth}
+\end{table}
+
+\begin{table}[h]
+	\begin{adjustwidth}{-1.2in}{-1.2in}% adjust the L and R margins by 1 inch
+		\begin{tabular}{|p{1.1cm}|c|c|c|c|}
+			\hline
+			Testing No. & First frame & Second frame & Optical flow & Bounding Box \\ \hline
+			1 & 
+			\includegraphics[scale=0.42]{ap411.JPG} & \includegraphics[scale=0.42]{ap412.JPG} & \includegraphics[scale=0.42]{ap413.JPG} & \includegraphics[scale=0.42]{ap414.JPG} \\
+			2 & 
+			\includegraphics[scale=0.42]{ap421.JPG} & \includegraphics[scale=0.42]{ap422.JPG} & \includegraphics[scale=0.42]{ap423.JPG} & \includegraphics[scale=0.42]{ap424.JPG} \\
+			3 & 
+			\includegraphics[scale=0.42]{ap431.JPG} & \includegraphics[scale=0.42]{ap432.JPG} & \includegraphics[scale=0.42]{ap433.JPG} & \includegraphics[scale=0.42]{ap434.JPG} \\
+			4 & 
+			\includegraphics[scale=0.42]{ap441.JPG} & \includegraphics[scale=0.42]{ap442.JPG} & \includegraphics[scale=0.42]{ap443.JPG} & \includegraphics[scale=0.42]{ap444.JPG} \\
+			5 & 
+			\includegraphics[scale=0.42]{ap451.JPG} & \includegraphics[scale=0.42]{ap452.JPG} & \includegraphics[scale=0.42]{ap453.JPG} & \includegraphics[scale=0.42]{ap454.JPG} \\
+			\hline
+		\end{tabular}
+		\caption{Experimental No.4 full object moves directly to the front of the camera}
+		\label{tab:04}
+	\end{adjustwidth}
+\end{table}
+
+\begin{table}[h]
+	\begin{adjustwidth}{-1.2in}{-1.2in}% adjust the L and R margins by 1 inch
+		\begin{tabular}{|p{1.1cm}|c|c|c|c|}
+			\hline
+			Testing No. & First frame & Second frame & Optical flow & Bounding Box \\ \hline
+			1 & 
+			\includegraphics[scale=0.42]{ap511.JPG} & \includegraphics[scale=0.42]{ap512.JPG} & \includegraphics[scale=0.42]{ap513.JPG} & \includegraphics[scale=0.42]{ap514.JPG} \\
+			2 & 
+			\includegraphics[scale=0.42]{ap521.JPG} & \includegraphics[scale=0.42]{ap522.JPG} & \includegraphics[scale=0.42]{ap523.JPG} & \includegraphics[scale=0.42]{ap524.JPG} \\
+			3 & 
+			\includegraphics[scale=0.42]{ap531.JPG} & \includegraphics[scale=0.42]{ap532.JPG} & \includegraphics[scale=0.42]{ap533.JPG} & \includegraphics[scale=0.42]{ap534.JPG} \\
+			4 & 
+			\includegraphics[scale=0.42]{ap541.JPG} & \includegraphics[scale=0.42]{ap542.JPG} & \includegraphics[scale=0.42]{ap543.JPG} & \includegraphics[scale=0.42]{ap544.JPG} \\
+			5 & 
+			\includegraphics[scale=0.42]{ap551.JPG} & \includegraphics[scale=0.42]{ap552.JPG} & \includegraphics[scale=0.42]{ap553.JPG} & \includegraphics[scale=0.42]{ap554.JPG} \\
+			\hline
+		\end{tabular}
+		\caption{Experimental No.5 Object stands in a far position from the camera and the camera may detect only some part of the object.}
+		\label{tab:05}
+	\end{adjustwidth}
+\end{table}

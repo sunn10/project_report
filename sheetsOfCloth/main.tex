@@ -1,0 +1,282 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+% allows for temporary adjustment of side margins
+\usepackage{chngpage}
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+%\textsc{\LARGE \univname}\\[1.5cm] % University name
+%\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+
+%\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries Obstacle Avoidance System For Visually Impaired Person}\\[0.4cm] % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+
+\vspace{2 cm}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1.2]{kmitl.JPG}
+\end{figure}
+
+\vspace{2 cm}
+\begin{minipage}{0.7\textwidth} 
+\begin{center} \large
+%\emph{Author:}\\
+%{\authornames} % Author name - remove the \href bracket to remove the link
+
+\begin{center}{}
+	Apipol Niyomsak 55090052 \\
+	Karunyapas Dangruan 55090005 \\
+	Pongrawee Jutadhammakorn 55090033 \\
+	Siwatch Luxsameepicheat 55090049 \\
+
+\end{center}
+
+\end{center}
+\end{minipage}
+
+\vspace{0.5 cm}
+\begin{minipage}{0.4\textwidth}
+\begin{center} \large
+\emph{Supervisor:} \\
+{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{center}
+\end{minipage}\\[2cm]
+
+
+\large \textit{Project report submitted in partial fulfillment of the requirements for \\
+	Software Project 1}\\[0.3cm] % University requirement text
+%\textit{in the}\\[0.4cm]
+
+Bachelor of Engineering Program in Software Engineering \\
+Academic Year 2014, Semester 2 \\
+International College \\
+King Mongkut's Institute of Technology Ladkrabang \\
+%\groupname\\\deptname\\[2cm] % Research group name and department name 
+\vfill
+\end{center}
+\end{titlepage}
+
+\clearpage % Start a new page
+%----------------------------------------------------------------------------------------
+%	Project report page
+%----------------------------------------------------------------------------------------
+\textbf{Project Report}\\
+13016290 : Software Project 1\\
+Academic Year 2014, Semester 2\\
+B.Eng in Software Engineering\\
+International College, King Mongkut's Institute of Technology Ladkrabang\\ 
+
+\textbf{Title:} Obstacle Avoidance System For Visually Impaired Person\\
+
+
+\textbf{Authors:}\\
+\begin{tabular}{ll}
+	Apipol Niyomsak 55090052 \\
+	Karunyapas Dangruan 55090005 \\
+	Pongrawee Jutadhammakorn 55090033 \\
+	Siwatch Luxsameepicheat 55090049 \\
+\end{tabular}
+
+\vspace{11cm}
+
+\begin{flushright}
+	\begin{tabular}{c}
+		Approved for submission\\
+		..............................................\\
+		(Dr.Chaiwat Nuthong)\\
+		Advisor\\
+		Date .........................................\\
+	\end{tabular}
+\end{flushright}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+%\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+%\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\pagestyle{fancy}
+
+\chapter{Obstacle Avoidance System For Visually Impaired Person}
+
+\begin{flushright}
+	\begin{tabular}{ll}
+		Apipol Niyomsak 55090052 \\
+		Karunyapas Dangruan 55090005 \\
+		Pongrawee Jutadhammakorn 55090033 \\
+		Siwatch Luxsameepicheat 55090049 \\
+		Academic Year 2014
+	\end{tabular}
+\end{flushright}
+
+\section*{Abstract}
+A cane that blind people use today may not be sufficient to help them navigate throughout the environment. Especially when they have to be constantly aware of surrounding obstacles both mobile and immobile. By using only the cane, blind people often get their head injured by hitting head-level objects. The cane only provides floor-level awareness but not head-level awareness. Moreover, they could not tell whether the obstacle is human or not unless they move close enough. The aims of this study is to assist visually impaired person to avoid obstacles as many as possible with a portable device. By working together as a blind’s cane complementary, the system assists blind in avoiding further obstacles the cane cannot reach. The modeling involved using ultrasonic sensors as a proximity detector, vibrators as a haptic feedback provider, and camera as the eye of object detection. 
+The result showed that obstacles can be detected further away compared to the ordinary cane with an early haptic feedback through vibrators. 72 percents of human detection correctness for each image captured from a camera. An analysis showed that larger picture increase detection accuracy, but also a significant increase in execution time. An important factor in designing the system is to provide feedback to user as soon as possible which will limit the design. Further research is recommended to reduce execution time on human detection algorithm, also to increase detection range of the proximity sensors.
+
+
+\clearpage % Start a new page
+%----------------------------------------------------------------------------------------
+%	Acknowledgements
+%----------------------------------------------------------------------------------------
+%\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+%\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\pagestyle{fancy}
+\chapter{Acknowledgements}% not finish
+This project implemented successful. The developers would like to thank the person who can help to make the consultation and advices as well. Dr. Chaiwat Nutong is our advisor to lead to completion of this project.
+We would like to say thank you to all the board of committees and as well as all the staffs of the International College, KMITL for all their comments and guidance throughout the length of the past semester.
+\begin{flushright}
+	\begin{tabular}{ll}
+		\\
+		\\
+		\\
+		Apipol Niyomsak 55090052 \\
+		Karunyapas Dangruan 55090005 \\
+		Pongrawee Jutadhammakorn 55090033 \\
+		Siwatch Luxsameepicheat 55090049 \\
+	\end{tabular}
+	
+\end{flushright}
+\clearpage % Start a new page
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+
+
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5} 
+\input{Chapters/Chapter6} 
+\input{Chapters/Chapter7}
+\input{Chapters/Chapter8} 
+\input{Chapters/Chapter9} 
+
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\begin{thebibliography}{4} %not finish
+	\bibitem{Method} 
+	Jingting L.,Ying W.,Qiang Z., and Wei C,
+	\emph{Method of Counting Thin Steel
+		Plates Based on Digital Image Processing}.
+	School of Electronics Information, Wuhan University,
+	2011.\label{ref:method}
+	
+	\bibitem{Machine}
+	Chatchai S.and Meena R.,
+	\emph{Machine Vision System for Counting the Number of
+		Corrugated Cardboard}.
+	Electrical Engineering, Faculty of Engineering
+	Rajamangala University of Technology Thanyaburi,
+	2014.\label{ref:machine}
+	
+	\bibitem{Instruc}
+	Instructables,
+	\emph{Image Processing and Counting using MATLAB}.
+	http://www.instructables.com/id/Image-Processing-and-Counting-using-
+	MATLAB,
+	May 22, 2014.
+	
+	\bibitem{mathwork}
+	MathWorksM,
+	\emph{Image processing}.
+	http://www.mathworks.com/help/images/functionlist.html,
+	May 22, 2014.
+	
+\end{thebibliography}
+%\lhead{\emph{References}} % Change the page header to say "Bibliography"
+
+%\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+%\bibliography{Bibliography}
+%\bibliography{References} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+\end{document}  
