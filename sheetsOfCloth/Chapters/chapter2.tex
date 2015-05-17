@@ -1,47 +1,68 @@
 % Chapter Template
 
-\chapter{Literature review & Overall Description} % Main chapter title
+\chapter{Literature review and Overall Description} % Main chapter title
 
 \label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-\lhead{Chapter 2. \emph{Literature review & Overall Description}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+\lhead{Chapter 2. \emph{Literature review and Overall Description}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{LITERATURE REVIEW}
+\section{LITERATURE REVIEW}\label{sec:2.1}
 
-THE EYE STICK – WALKING STICK THAT SEES\\
+\textbf THE EYE STICK – WALKING STICK THAT SEES\\
 Methodology - The Eye Stick is fitted with a sensor lens towards the bottom part, from where it picks up location bearings, like is the person nearing a staircase, or is he near the traffic lights. It then sends feedback to the blind commuter via sonic vibrations, communicating the scenario, so that the person can be aware of his surroundings and take his next step with confidence.
-Result - The blind person can recognize where they are through the Eye Stick. They can avoid dangerous things as well as locate their destination. The eye stick can also recognize traffic light signals, stair steps, and the subway station\\
+Result - The blind person can recognize where they are through the Eye Stick. They can avoid dangerous things as well as locate their destination. The eye stick can also recognize traffic light signals, stair steps, and the subway station. Show in Figure \ref{fig:2_1} and \ref{fig:2_2}\\
 
-PLASTIC FANTASTIC BRAIN\\
-Methodology – allow blind to see image from vibrations simulated from user’s tongue. The equipment component are camera and tiny electric pinprict. When the blind wear a camera on their head. The camera will capture the object in front of them. When taking a tiny electric pinprict in user’s mouth, it will draw a picture of an object directly on the surface of user’s tongue. This information is represented in a form of a picture. Which is later translated by visual cortex of user’s brain.
-Result – Blind people use their tongue to locate an object and identify its shape.
-
-
-
-\section{Review of Related Work}
-The iPhone application for counting the sheets of cloth applies image processing technique to provide the acceptable result. From survey, there are projects that use image processing techniques to count item that is placed overlay. The first project is “Method of Counting Thin Steel Plates Based on Digital Image Processing” proposed by Jingting Li and his team\cite{Method} that uses image processing to prepare the image and draws green straight lines before counting. The second project is “Machine Vision System for Counting the Number of Corrugated Cardboard proposed by Chatchai Suppitaksakul and his team \cite{Machine} that uses image processing to prepare and mark center of corrugated cardboard.\\
 \begin{figure}[t]
 	\centering
-	\includegraphics[scale=0.8]{f201.png}
-	\caption{Edge detection}
-	\label{fig:f201}
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{2_1.png}
+		\caption{}
+		\label{fig:2_1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.39\textwidth}
+		\includegraphics[width=\textwidth]{2_2.png}
+		\caption{}
+		\label{fig:2_2}
+	\end{subfigure}
+	\caption{(a) and (b) The eye stick - Walking stick that sees}
 \end{figure}
+
+\textbf PLASTIC FANTASTIC BRAIN\\
+Methodology – allow blind to see image from vibrations simulated from user’s tongue. The equipment component are camera and tiny electric pinprict. When the blind wear a camera on their head. The camera will capture the object in front of them. When taking a tiny electric pinprict in user’s mouth, it will draw a picture of an object directly on the surface of user’s tongue. This information is represented in a form of a picture. Which is later translated by visual cortex of user’s brain.\\
+Result – Blind people use their tongue to locate an object and identify its shape. Show in figure 
+\ref{fig:2_3} , \ref{fig:2_4} and \ref{fig:2_5}
+
 \begin{figure}[t]
 	\centering
-	\includegraphics[scale=0.8]{f202.png}
-	\caption{Center marking obtain from blob analysis operation}
-	\label{fig:f202}
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{2_3.png}
+		\caption{}
+		\label{fig:2_3}
+	\end{subfigure}\\
+	\begin{subfigure}[b]{0.39\textwidth}
+		\includegraphics[width=\textwidth]{2_4.png}
+		\caption{}
+		\label{fig:2_4}
+	\end{subfigure}\\
+	\begin{subfigure}[b]{0.39\textwidth}
+		\includegraphics[width=\textwidth]{2_5.png}
+		\caption{}
+		\label{fig:2_5}
+	\end{subfigure}\\
+	\caption{(a) , (b) and (c) Plastic Fantastic Brain}
 \end{figure}
 
-\textbf{Method of Counting Thin Steel Plates Based on Digital Image Processing}
-by Jingting Li and his team.\cite{Method} This project applied the method that offers a way to count piled thin steel plate for car chassis based on digital image processing and software designed for it. First, the image of the piled steel plates was enhanced quality. Then acquiring the region of interest (ROI) and detecting the lines with edge detection, horizontally shear the image against the tilting angle to adjust to vertical. Finally, count the number of plates in a Figure \ref{fig:f201} by counting peaks that count with green lines. The method requires no large mechanical equipment and is efficient and accuracy.\\
 
-\textbf{Machine Vision System for Counting the Number of Corrugated Cardboard}
-by Chatchai Suppitaksakul and his team \cite{Machine}. This project presented a method for counting the number of corrugated cardboard that used machine vision system and image processing techniques. The cardboard edge images that were strip or slitter and fluted or cut-off side were used for detection and counting. The gray level of edge images which obtained from the line scan camera were converted to binary images using threshoding. After that the strip lines of the slitter side were extracted by the first-order derivative and morphology then processed with mode for counting. For the cut-off side, the fluted areas of cardboard were identified and measured using Blob analysis. Then the centers of the detected area were marked with red ‘x’ and counted as the number of cardboards as shown in a Figure \ref{fig:f202}. MATLAB was applied to simulate in the experiments for determining the algorithms and performed the real-time experiments using HALCON to see the accuracy and performance of the system. The cardboard type BC, C and B were used in the tests. As experimental results, it is shown that the system provided the correct counting with tolerance of 2 cm and 3 cm in the case of the cardboard placed away further the camera focus for the slitter and cut-off side respectively.
+\section{Overall Description}
+Obstacle Avoidance System is an embedded-system intended to assist a person with severe vision disabilities. Working as a cane complementary, the system is able to detect distance further than a cane can reach
+The system uses a proximity sensor attached at the belt. The system detects the closest object within its proximity and sends it to vibration sensor signaling an incoming obstacles. Moreover, the system can also detect possibility of human presence. It help ensures user that an object they are currently looking may likely be human. They can act accordingly\\
 
+\textbf USER CLASSES AND CHARACTERISTICS\\
+This product focus mainly on person with severe vision disabilities who has visual field less than 10 degrees. The product also focus on a person with complete blindness, unable to sense light source from an environment as well.
 
-These researches are useful for studying and understanding some techniques that can be applied to our project. Some techniques of aforementioned research are used to implement and solve in our project. Such as center making or centroid, edge detection, etc. 
+\textbf OPERATING ENVIRONMENT\\
+

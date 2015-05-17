@@ -2,47 +2,49 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Edge detection\relax }}{4}{figure.caption.20}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Center marking obtain from blob analysis operation\relax }}{4}{figure.caption.21}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces (a) and (b) The eye stick - Walking stick that sees\relax }}{4}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces (a) , (b) and (c) Plastic Fantastic Brain\relax }}{4}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Edge detection\relax }}{5}{figure.caption.22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Center marking obtain from blob analysis operation\relax }}{5}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Original image and histogram\relax }}{7}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Gray-scale image equalization and histogram\relax }}{7}{figure.caption.25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Maximum values for the intensity of the image\relax }}{7}{figure.caption.27}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) An original image (b) Binary image (c) Binary inverted image (d) Threshold truncated image (e) Threshold to zero image (f) Threshold to zero inverted image\relax }}{8}{figure.caption.30}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Histogram\relax }}{8}{figure.caption.31}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Background\relax }}{9}{figure.caption.32}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Foreground\relax }}{10}{figure.caption.36}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The results\relax }}{11}{figure.caption.42}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The threshold value\relax }}{11}{figure.caption.43}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces (a) An original image (b) RGB to gray-scale image conversion result\relax }}{12}{figure.caption.46}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces (a) An original image (b) RGB to gray-scale image conversion result\relax }}{12}{figure.caption.48}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces (a) Histogram of gray-scale image (b) Histogram of enhancing the contrast of the gray-scale image\relax }}{13}{figure.caption.49}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Enhancing the contrast of the gray-scale image (b) Converting the binary image \relax }}{13}{figure.caption.51}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces (a) Gray-scale image (b) Sobel image(c) Prewitt image (d) Roberts image(e) Laplacian of Gaussian image (f) Zero-cross image (g) Canny image \relax }}{15}{figure.caption.53}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Original image and histogram\relax }}{8}{figure.caption.26}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Gray-scale image equalization and histogram\relax }}{8}{figure.caption.27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Maximum values for the intensity of the image\relax }}{8}{figure.caption.29}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) An original image (b) Binary image (c) Binary inverted image (d) Threshold truncated image (e) Threshold to zero image (f) Threshold to zero inverted image\relax }}{9}{figure.caption.32}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Histogram\relax }}{9}{figure.caption.33}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Background\relax }}{10}{figure.caption.34}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Foreground\relax }}{11}{figure.caption.38}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The results\relax }}{12}{figure.caption.44}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The threshold value\relax }}{12}{figure.caption.45}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces (a) An original image (b) RGB to gray-scale image conversion result\relax }}{13}{figure.caption.48}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces (a) An original image (b) RGB to gray-scale image conversion result\relax }}{13}{figure.caption.50}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces (a) Histogram of gray-scale image (b) Histogram of enhancing the contrast of the gray-scale image\relax }}{14}{figure.caption.51}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces (a) Enhancing the contrast of the gray-scale image (b) Converting the binary image \relax }}{14}{figure.caption.53}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces (a) Gray-scale image (b) Sobel image(c) Prewitt image (d) Roberts image(e) Laplacian of Gaussian image (f) Zero-cross image (g) Canny image \relax }}{16}{figure.caption.55}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces System\IeC {\textquoteright }s Use Case Diagram\relax }}{17}{figure.caption.60}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Activity diagram of application\relax }}{20}{figure.caption.66}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces System\IeC {\textquoteright }s Use Case Diagram\relax }}{18}{figure.caption.62}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Activity diagram of application\relax }}{21}{figure.caption.68}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Overall class diagram of the application\relax }}{22}{figure.caption.70}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Framework package\relax }}{22}{figure.caption.72}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces ImageUpdate package\relax }}{23}{figure.caption.74}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Counting package\relax }}{23}{figure.caption.76}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Overall class diagram of the application\relax }}{23}{figure.caption.72}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Framework package\relax }}{23}{figure.caption.74}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ImageUpdate package\relax }}{24}{figure.caption.76}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Counting package\relax }}{24}{figure.caption.78}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces (a) MATLAB (b) Xcode (c) OpenCV\relax }}{25}{figure.caption.79}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Designed Moqup\relax }}{26}{figure.caption.85}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Flow of algorithm\relax }}{27}{figure.caption.87}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces (a) An original image (b) Gray-scale image\relax }}{27}{figure.caption.89}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Result of image enhancement\relax }}{28}{figure.caption.91}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Binary image\relax }}{28}{figure.caption.93}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Intensity value in array\relax }}{29}{figure.caption.95}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Improved intensity value in array\relax }}{29}{figure.caption.96}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces (a) Binary image with ten (b) New binary image resulted from the first horizontal straight line\relax }}{29}{figure.caption.97}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces (a) MATLAB (b) Xcode (c) OpenCV\relax }}{26}{figure.caption.81}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Designed Moqup\relax }}{27}{figure.caption.87}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Flow of algorithm\relax }}{28}{figure.caption.89}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces (a) An original image (b) Gray-scale image\relax }}{28}{figure.caption.91}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Result of image enhancement\relax }}{29}{figure.caption.93}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Binary image\relax }}{29}{figure.caption.95}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Intensity value in array\relax }}{30}{figure.caption.97}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Improved intensity value in array\relax }}{30}{figure.caption.98}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces (a) Binary image with ten (b) New binary image resulted from the first horizontal straight line\relax }}{30}{figure.caption.99}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Screen-shot of sheets of cloth counting application (selecting image file from the gallery)\relax }}{31}{figure.caption.100}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Screen-shot of sheets of cloth counting application (selecting image file from the gallery)\relax }}{31}{figure.caption.101}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Screen-shot of sheets of cloth counting application (selecting image file from the gallery)\relax }}{32}{figure.caption.102}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Screen-shot of sheets of cloth counting application (selecting image file from the gallery)\relax }}{32}{figure.caption.103}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Conditions testing\relax }}{33}{figure.caption.105}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Conditions testing\relax }}{34}{figure.caption.107}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces (a) An original image (b) Edge detection\relax }}{38}{figure.caption.123}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Area for calculating image features\relax }}{39}{figure.caption.124}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Features extraction of an input image\relax }}{39}{figure.caption.125}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces (a) An original image (b) Edge detection\relax }}{39}{figure.caption.125}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Area for calculating image features\relax }}{40}{figure.caption.126}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Features extraction of an input image\relax }}{40}{figure.caption.127}
